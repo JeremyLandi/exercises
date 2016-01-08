@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>banking Form</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Bank of Jeremy</h1>
+			<h2>Loan Application</h2>
+		
+	  <form action="form.html" method="POST">
+	    <fieldset>
+	      <legend class="info">Tell us about yourself</legend>
+		      <label for="first-name" >First name</label>
+		      <input type="text" name="first-name" autofocus>
+		      <br/>
+		      <label for="middle-initial" >Middle initial</label>
+		      <input type="text" name="first-name" autofocus>
+		      <br/>
+		      <label for="last-name">Last name</label>
+		      <input type="text" name="last-name">
+		      <br/>
+		      <label for="address" >Address</label>
+		      <input type="text" name="address" autofocus>
+		      <br/>
+		      <label for="employer" >Employer</label>
+		      <input type="text" name="employer" autofocus>
+		      <br>
+		      <label for="employer-address" >Employer Address</label>
+		      <input type="text" name="employer-address" autofocus>
+		      <br>
+		      <label for="email-address">Email address</label>
+		      <input type="email" name="email" placeholder="you@somewhere.com">
+		      <br/>
+		      <label for="telephone">Enter your mobile number</label>
+		      <input type="tel" name="telephone" placeholder="888-867-5309">
+	    </fieldset>
+
+	    <fieldset>
+	      <legend class="loan-type">How Can We Help You</legend>
+	      	<label for="loan-type">Loan type: </label>
+	      	<select id="loan-type" name="type">
+	          <option value="Commercial">Commercial</option>
+	          <option value="Real Estate">Real Estate</option>
+	          <option value="Personal">Personal</option>
+	          <option value="Mortgage">Mortgage</option>  
+	      	</select>
+
+	      <legend class="loan-length">Loan Length</legend>
+		      <input type="radio" name="product-type" value="5-years"> 5 Years
+		      <input type="radio" name="product-type" value="15-years"> 15 Years
+		      <input type="radio" name="product-type" value="30-years"> 30 Years
+	 
+	      <legend class="special-conditions">Special Conditions</legend>
+		      <input type="checkbox" name="down-payment" value="student"> I have a down payment
+		      <input type="checkbox" name="out-of-state" value="advanced"> Out-of-state resident
+		      <input type="checkbox" name="married" value="whistlepig"> Married
+		      <input type="checkbox" name="co-signed" value="whistlepig"> Loan will be co-signed
+	    </fieldset>
+
+		  <fieldset>
+	      <legend class="additional-comments">Additional Comments</legend>
+	      <label for="comments"></label>
+	      <textarea id="comments" name="comments"></textarea>
+<br>
+	      <input type="submit" class="submit" value="Apply"></input>
+	    </fieldset>
+
+	    
+	  </form>
+		
+		<footer>All Rights Reserved Bank of JL &reg</footer>
+	</div> 				 <!-- End of container Div -->
+</body>
+</html>
