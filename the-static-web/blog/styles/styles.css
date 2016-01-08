@@ -1,0 +1,127 @@
+                    /**** General Styling ****/
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#FFF;
+}
+html {
+	font-size:100%;
+	line-height:1.5;
+}
+section {
+   border-top: 2px solid black; 
+}
+section:first-of-type {
+    border-top: none;
+    margin-top: 50px;
+}
+h1 {
+	font-size: 3em;
+    text-align: center;
+    border: 3px outset silver;
+    margin-bottom: auto;
+}
+h2 {
+	font-size:2em;
+    border: 3px outset silver;
+    text-align: center;
+     margin-top: 80px; 
+    background-color: rgba(200,200,200,.3);
+}
+h3 {
+	font-size: 1.5em;
+	padding-top: 10px;
+}
+img {
+	max-width: 40%;
+    margin: 0 auto;
+    padding: 0 1em 1em 0;
+}
+
+
+                       
+.clear {            /**** General Classes ****/      
+    clear: both;
+}
+.floatLeft {
+    float: left;
+}
+.container  {       
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(200,200,200,.3)no-repeat;
+    background-size: cover; 
+}   
+.articles {
+    padding: 0 25px 50px;
+    margin: 5px;
+    background-color: rgba(200,200,200,.5); 
+    border: 3px outset #000;
+}
+.footer {
+    float: right;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: .8em;
+}
+nav {					/**** NAV ****/
+	text-align: center;
+	margin-top:-35px;
+    margin-left: -22px;
+    padding: 40px ;
+    border: 1px solid #000;
+    width:100%;
+	position: fixed;
+	z-index: 1;
+    box-sizing: border-box;
+    background-color: rgba(244,244,244,1);
+}
+.nav li {
+	display: inline;
+    padding: 5px 20px ;
+    border-right: 1px solid #777;
+}
+.nav li:last-of-type {
+    border-right: none;  
+}
+.nav li a {
+    border: 2px outset #555; 
+    padding: 20px 20px;
+    border-radius: 10px;
+    
+}
+
+a:link {                    /**** Sudo Classes ****/
+    color: black;
+    text-decoration: none;
+    /* IE10+ */ 
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #FFFFFF 70%, #D4D3DD 90%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 70%, #D4D3DD 90%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 70%, #D4D3DD 90%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(70, #FFFFFF), color-stop(90, #D4D3DD));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 70%, #D4D3DD 90%);
+
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 70%, #D4D3DD 90%);
+}
+a:hover {
+    color: black;
+    background: rgba(100,100,100,.1);
+}
+a:active {
+    background: #fff;
+}
+
+
+
+
+
