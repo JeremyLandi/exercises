@@ -1,0 +1,50 @@
+header {
+  border: 1px outset #777;
+}
+li {
+  display: block;
+  list-style: none;
+
+  padding: 5px;
+}
+a:link {
+  text-decoration: none;
+}
+
+.disabled {
+  color: grey;
+}
+a .disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+.parent div div:nth-of-type(1) {
+  color: red;
+}
+.parent div div:nth-of-type(2) {
+  color: blue;
+}
+.parent div h4:nth-of-type(1) {
+background: red;
+}
+.parent div h4:nth-of-type(2) {
+background: blue;
+}
+.grandparent > h4 {
+  border: 1px solid #777;
+  border-radius: 10px;
+}
+[type="text"] {
+  height: 25px;
+}
+
+
+
+
