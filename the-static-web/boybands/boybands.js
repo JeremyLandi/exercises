@@ -1,3 +1,5 @@
+
+
 var bands = ["Boyz II Men", "NSync", "New Kids on the Block", "98 Degrees", "One Direction"];
 var vegetables = ["Carrots", "Kale", "Zucchini", "Broccoli", "Squash"];
 
@@ -23,10 +25,10 @@ for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
   
   currentBand = bands[loopTracker]
 	
-	document.getElementById("boy-bands").innerHTML += bands[loopTracker] + ", " ;
+	document.getElementById("boy-bands").innerHTML += "<p>" + bands[loopTracker] + "</p>" ;
 	
 
   // Add the veggie names into the correct <div>
   currentVeggie = vegetables[loopTracker];
- 	document.getElementById("vegetables").innerHTML += vegetables[loopTracker] + ", "; 
+ 	document.getElementById("vegetables").innerHTML += "<p>" + vegetables[loopTracker] + "</p>"; 
 }

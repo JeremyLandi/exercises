@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Temperature Converter</title>
+  
+  <style>
+  	#convertedTemp {
+  		width: 10%;
+  	}
+		.hot {
+			background-color: rgba(200,50,50,.5);			
+		}
+		.cold {
+			background-color: rgba(5,5,200,.8);
+		}
+		.neutral {
+			background-color: rgba(50, 200, 50, .5);
+		}
+  </style>
+</head>
+
+<body>
+
+
+
+	<label>Enter Temperature:</label>
+		<input type="text" name="tempertureEntered" id="tempertureEntered" >
+		<br>
+	<label>Temerature Scale:</label> 
+		<br>
+		<input type="radio" id="celsius" name="tempScale" value="toCelsius">Fahrenheit to Celsius 
+		<br>
+		<input type="radio" id="fahrenheit" name="tempScale" 
+		value="toFahrenheit">Celsius to Fahrenheit 
+		<br>
+		
+
+	<label>Converted Temperature:</label> 
+		<br>
+	<div id="convertedTemp" ></div>
+<!-- class="hot" class="cold" class="neutral" -->
+	<button id="converterButton">Convert</button> <br>
+	<button id="resetButton">Reset</button>
+
+
+<script type="text/javascript" src="converter.js"></script>
+</body>
+</html>
