@@ -18,12 +18,19 @@ var sonnetUpdate = sonnetText.replace("winter", "yuletide");
 console.log(sonnetUpdate); 
 
 // Replace all occurances of the string "the" with "a large"
-var sonnetUpdate2 = sonnetText.replace(/the/g, "a large");
+var sonnetUpdate2 = sonnetUpdate.replace(/the /g, "a large ");
 console.log(sonnetUpdate2);
 
 // Set the content of the sonnet div with the new string
-sonnet.innerHTML = "herelo";
+sonnet.innerHTML = sonnetUpdate2;
 console.log("Updated", sonnet.innerHTML);
+
+
+
+
+
+
+
 
 
 

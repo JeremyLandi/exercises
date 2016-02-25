@@ -1,0 +1,35 @@
+body {
+	background-color: #aaa;
+}
+
+.blue {
+	color: blue;
+}
+
+.hulk {
+	font-size: 2em;
+}
+
+.border {
+	border: 2px outset #444 ;
+}
+
+.capture {
+	border: 2px solid #444 ;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+
+.bold {
+	font-weight: bolder;
+}
+.boldItalicized {
+	font-weight: bolder;
+	font-style: italic;
+}
+.blockElements {
+	display: block;
+}
+
+
+

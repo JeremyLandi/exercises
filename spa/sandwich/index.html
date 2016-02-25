@@ -1,0 +1,82 @@
+ <!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+ <!--  <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>  
+	<form id="ingredients">
+		<fieldset id="bread-chooser">
+			<label>Bread: </label>
+			<input type="checkbox" name="bread" value="noBread">None
+			<input type="checkbox" name="bread" value="white">White
+			<input type="checkbox" name="bread" value="wheat">Wheat
+			<input type="checkbox" name="bread" value="sourdough">Sourdough
+			<input type="checkbox" name="bread" value="squaw">Squaw 
+		</fieldset>
+
+		<fieldset id="meat-chooser">
+			<label>Meat: </label>
+			<input type="checkbox" name="meat" value="noMeat">None
+			<input type="checkbox" name="meat" value="turkey">Turkey
+			<input type="checkbox" name="meat" value="ham">Ham
+			<input type="checkbox" name="meat" value="bacon">Bacon
+			<input type="checkbox" name="meat" value="chicken">Roasted Chicken
+			<input type="checkbox" name="meat" value="tuna">Blue Fin Tuna
+		</fieldset>	
+
+		<fieldset id="cheese-chooser">
+			<label>Cheese: </label>
+			<input type="checkbox" name="cheese" value="noCheese">None
+			<input type="checkbox" name="cheese" value="american">American
+			<input type="checkbox" name="cheese" value="pepper-jack">Pepper Jack
+			<input type="checkbox" name="cheese" value="provolone">Provolone
+			<input type="checkbox" name="cheese" value="cheddar">Cheddar
+			<input type="checkbox" name="cheese" value="muenster">Muenster 
+			<input type="checkbox" name="cheese" value="swiss">Swiss 
+		</fieldset>	
+
+		<fieldset id="condiment-chooser">
+			<label>Condiments: </label>
+			<input type="checkbox" name="condiments" value="noCondiments">None
+			<input type="checkbox" name="condiments" value="mayo">Mayo
+			<input type="checkbox" name="condiments" value="mustard">Mustard
+			<input type="checkbox" name="condiments" value="oil-vin">Oil and Vinegar
+			<input type="checkbox" name="condiments" value="salt-pepper">Salt and Pepper
+		</fieldset>	
+		
+		<fieldset id="veggie-chooser">
+			<label>Veggies: </label>
+			<input type="checkbox" name="veggies" value="noVeggies">None
+			<input type="checkbox" name="veggies" value="lettuce">Lettuce
+			<input type="checkbox" name="veggies" value="tomato">Tomato
+			<input type="checkbox" name="veggies" value="onion">Onion
+			<input type="checkbox" name="veggies" value="cucumber">Cucumber
+			<input type="checkbox" name="veggies" value="avocado">Avocado
+		</fieldset>
+
+		<button id="button">Get Total Price</button>
+	</form>
+	<br>
+	<div id="totalCost"> </div>
+	
+  <script src="javascripts/DOMHandler.js"></script>
+  <script src="javascripts/SandwichMaker.js"></script>
+  <script src="javascripts/bread.js"></script>
+  <script src="javascripts/meat.js"></script>
+  <script src="javascripts/cheese.js"></script>
+  <script src="javascripts/condiments.js"></script>
+  <script src="javascripts/veggies.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

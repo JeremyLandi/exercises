@@ -1,0 +1,36 @@
+h1 {
+	font-size: 2em;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.card {
+	padding: 10px;
+	background-color: rgba(169, 238, 177,.8);
+	border: 1px outset #ccc;
+	width: 100%;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+.card:nth-of-type(even) {
+	background-color: rgba(169, 177, 238,.8);
+}
+
+#textarea {	
+	font-size: 1em;
+	margin-bottom: 20px;
+}
+
+.deleteButton {
+	float: right;
+}
+
+.deleteButton:hover {
+	border: 1px outset #fff;
+	border-radius: 5px;
+}

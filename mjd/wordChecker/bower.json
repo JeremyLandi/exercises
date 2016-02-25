@@ -1,0 +1,15 @@
+{
+  "name": "wordChecker",
+  "homepage": "https://github.com/JeremyLandi/exercises",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
